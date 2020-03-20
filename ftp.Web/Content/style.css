@@ -1,0 +1,60 @@
+html, body, header, #intro{
+	height: 100%
+}
+#intro{
+	background: url(../img/main.jpg) no-repeat center center fixed;
+	-webkit-background-size: conver;
+	background-size: cover;
+}
+
+.top-nav-collapse,.main-nav{
+	background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+.without{
+	background-color: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+}
+
+.parent{
+	 margin-top: 90px;
+}
+
+@media (max-width: 768px){
+	.navbar:not(.top-nav-collapse){
+		background: #24355C;
+	}
+}
+.info {
+  background-color: #e7f3fe;
+  border-left: 6px solid #2196F3;
+}
+.for-settings{
+	padding-left: 150px ;
+	margin-top:57px ;
+	font-weight: 400;
+	line-height: 1.55;
+	margin-left:57px; 
+}
+
+button:focus {
+    outline: 0;
+}
+
+.navbar .dropdown-menu .form-control {
+    width: 200px;
+}
+
+.img-centr{
+	margin-top:30px;
+	margin-left: 200px;
+}
+
+
+.size-img{
+	height:100px ;
+	width:100px;
+}

@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <meta http-equiv="x-ua-compatible" content="ie=edge">
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+     @Styles.Render("~/bundles/css")
+     <title>FTP</title>
+</head>
+<body>
+     <header>
+          <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+
+               @Html.Partial("_Navbar")
+          </nav>
+          <div id="intro" class="view">
+               <div class="mask rgba-black-strong">
+                    <div class="container-fluid d-flex align-items-center justify-content-center h-100">
+                         <div class="row d-flex justify-content-center text-center">
+                              <div class="col-md-10">
+                                   <h2 class="display-4 font-weight-bold white-text pt-5 mb-2">
+                                        Heroes
+                                   </h2>
+                                   <hr class="hr-light">
+                                   <h4 class="white-text my-4">Киберспортивная арена с топовым железом, новейшими приставками, лаунж-зоной.</h4>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </header>
+     <div>
+          @RenderBody()
+     </div>
+     @Scripts.Render("~/bundles/js")
+</body>
+</html>
